@@ -5,7 +5,7 @@ import Head from 'next/head';
 export default function Home() {
   return (
     <>
-      <Head>Ding Han's site | Home</Head>
+      <Head>Ding Han&apos;s site | Home</Head>
       <NavBar></NavBar>
       <HomeText></HomeText>
     </>

@@ -6,7 +6,7 @@ export default function About() {
     return (
         <>
         <Head>
-            <title>Ding Han's site | About</title>
+            <title>Ding Han&apos;s site | About</title>
         </Head>
         <NavBar></NavBar>
         <AboutText></AboutText>

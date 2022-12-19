@@ -6,7 +6,7 @@ export default function Links() {
     return (
       <>
         <Head>
-          <title>Ding Han's site | Links</title>
+          <title>Ding Han&apos;s site | Links</title>
         </Head>
         <NavBar></NavBar>  
         <div className="pt-[8vh] px-[1vw] w-screen h-screen flex items-center flex-col">
