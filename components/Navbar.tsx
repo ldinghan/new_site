@@ -32,10 +32,10 @@ const NavBar = () => {
                     </button>
                 </div>
             </nav>
-            <div className={`hover:mt-9 drop-shadow-md bg-gradient-to-t from-teal-400 via-indigo-300 to-pink-400 my-10 top-[-7vh] right-0 w-[20vw] text-white fixed  z-0 ease-in-out duration-500 ${showMenu ? 'translate-y-full' : 'translate-y-0'}`}>
+            <div className={`h-[10vh] drop-shadow-md bg-gradient-to-t from-teal-400 via-indigo-300 to-pink-400 top-[-3vh] right-0 w-[20vw] text-white fixed  z-0 ease-in-out duration-500 ${showMenu ? 'translate-y-full' : 'invisible'}`}>
                 <ul className="font-ChakraPetch w-full text-center">
-                    <Link href="/links"><li className='hover:text-lg hover:border hover:border-white p-3 hover:bg-gradient-to-r hover:from-violet-300 hover:to-emerald-200'>Links</li></Link>
-                    <Link href="/contact"><li className='hover:text-lg hover:border hover:border-white p-3 hover:bg-gradient-to-r hover:from-violet-300 hover:to-emerald-200'>Contact</li></Link>
+                    <Link href="/links"><li className='hover:border hover:border-white p-3 hover:bg-gradient-to-r hover:from-violet-300 hover:to-emerald-200'>Links</li></Link>
+                    <Link href="/contact"><li className='hover:border hover:border-white p-3 hover:bg-gradient-to-r hover:from-violet-300 hover:to-emerald-200'>Contact</li></Link>
                 </ul>
             </div>
 

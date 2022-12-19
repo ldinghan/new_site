@@ -8,6 +8,7 @@ function MyDocument() {
           href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap"
           rel="stylesheet"
         />
+        <title>Ding Han's site</title>
       </Head>
       <body>
         <Main />
