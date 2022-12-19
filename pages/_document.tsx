@@ -1,5 +1,4 @@
-import Document, { Html, Main, NextScript } from "next/document";
-import Head from 'next/head';
+import Document, { Html, Head, Main, NextScript } from "next/document";
 
 function MyDocument() {
   return (
@@ -9,7 +8,6 @@ function MyDocument() {
           href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap"
           rel="stylesheet"
         />
-        <title>Ding Han's site</title>
       </Head>
       <body>
         <Main />
