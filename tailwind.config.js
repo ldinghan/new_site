@@ -7,6 +7,12 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      'sm' : '640px',
+      'md' : '768px',
+      'lg' : '1024px',
+      'xl' : '1280px'
+    },
     extend: {
       fontFamily : {
         ChakraPetch: ["Chakra Petch", ...defaultTheme.fontFamily.sans]
@@ -14,8 +20,8 @@ module.exports = {
       animation: {
         "highlightText" : "highlightText 3s ease-in-out 10",
         "blurHide" : "blurHide 2s",
-        "blurShow" : "blurShow 3s",
-        "blurShowLate" : "blurShow 7s"
+        "blurShow" : "blurShow 2s",
+        "blurShowLate" : "blurShow 4s"
       },
       keyframes: (theme) => ({
         highlightText: {
