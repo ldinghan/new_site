@@ -1,5 +1,6 @@
 import {useState} from 'react';
 import Link from 'next/link';
+import ColourfulBox from './ColourfulBox';
 
 
 const NavBar = () => {
@@ -9,6 +10,7 @@ const NavBar = () => {
 
     return (
         <>
+            <ColourfulBox>
             <nav className="font-ChakraPetch drop-shadow-md flex h-16 bg-gradient-to-l from-pink-400 to-emerald-500 via-indigo-400 px-2 py-[1vh] sm:px-4 fixed w-full z-20 top-0 left-0">
                 <div className="container flex items-center justify-around mx-auto">
                 <Link href="/" className="flex items-center justify-center">
@@ -21,7 +23,7 @@ const NavBar = () => {
                 <div className="px-10 flex">
                     
                     <button onClick={() => setShowMenu(!showMenu)}>
-                        <svg viewBox="0 0 100 75" width="4vw" height="5vh" className={` hover:scale-105 ${showMenu ? 'animate-bounce' : 'animate-none'}`}>
+                        <svg viewBox="0 0 100 75" width="4vw" height="5vh" className={`min-w-[20px] min-h-[20px] max-w-[40px] max-h-[50px] hover:scale-105 ${showMenu ? 'animate-bounce' : 'animate-none'}`}>
                         
                             <rect width="90" height="10" fill='whitesmoke'></rect>
                             <rect y="20" x="10" width="70" height="10" fill='whitesmoke'></rect>
@@ -39,7 +41,7 @@ const NavBar = () => {
                 </ul>
             </div>
 
-
+            </ColourfulBox>
 
         </>
     )
