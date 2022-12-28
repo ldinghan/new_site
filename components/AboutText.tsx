@@ -30,7 +30,8 @@ const AboutText = () => {
                             - Grocery Scraper<br/>
                             - Aim Trainer<br/>
                             - PaintJS<br/>
-                            - Tower of Hanoi
+                            - Tower of Hanoi<br/>
+                            - Points Management System <br/>Telegram Bot
                         </p>
                     </ColourfulBox></div>
                 </div>

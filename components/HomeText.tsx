@@ -5,7 +5,6 @@ import ColourfulBox from "./ColourfulBox";
 const HomeText = () => {
     return (
         <>
-            
             <div className="pt-32 w-screen justify-evenly h-screen flex items-center flex-col text-white font-bold text-xl sm:text-3xl md:text-4xl lg:text-5xl font-ChakraPetch">
                 <ColourfulBox>
                     <p className='leading-relaxed text-center'>

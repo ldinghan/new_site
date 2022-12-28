@@ -1,16 +1,17 @@
 import {useState} from 'react';
 import Link from 'next/link';
-import ColourfulBox from './ColourfulBox';
 
 
 const NavBar = () => {
     const [showMenu, setShowMenu] = useState(false);
 
+    const openPDF = () => {
+        window.open("https://drive.google.com/file/d/13X8MFV1RCWRLssKxQKsysolzzk8oWHNi/view?usp=sharing");
+    }
 
 
     return (
         <>
-            <ColourfulBox>
             <nav className="font-ChakraPetch drop-shadow-md flex h-16 bg-gradient-to-l from-pink-400 to-emerald-500 via-indigo-400 px-2 py-[1vh] sm:px-4 fixed w-full z-20 top-0 left-0">
                 <div className="container flex items-center justify-around mx-auto">
                 <Link href="/" className="flex items-center justify-center">
@@ -38,10 +39,10 @@ const NavBar = () => {
                 <ul className="font-ChakraPetch w-full text-center">
                     <Link href="/links"><li className='hover:border hover:border-white p-3 hover:bg-gradient-to-r hover:from-violet-300 hover:to-emerald-200'>Links</li></Link>
                     <Link href="/contact"><li className='hover:border hover:border-white p-3 hover:bg-gradient-to-r hover:from-violet-300 hover:to-emerald-200'>Contact</li></Link>
+                    <Link href="/" onClick={openPDF}><li className='hover:border hover:border-white p-3 hover:bg-gradient-to-r hover:from-violet-300 hover:to-emerald-200'>Resume</li></Link>
                 </ul>
             </div>
 
-            </ColourfulBox>
 
         </>
     )
