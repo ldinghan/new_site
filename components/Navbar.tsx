@@ -6,7 +6,7 @@ const NavBar = () => {
     const [showMenu, setShowMenu] = useState(false);
 
     const openPDF = () => {
-        window.open("https://drive.google.com/file/d/13X8MFV1RCWRLssKxQKsysolzzk8oWHNi/view?usp=sharing");
+        window.open("https://drive.google.com/file/d/1ycqa3Oz6aYteevfbijAdmcXLXuk7fsuK/view?usp=sharing");
     }
 
 
