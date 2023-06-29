@@ -1,38 +1,45 @@
 import ColourfulBox from "./ColourfulBox";
-
+import profileData from "../assets/profileDetails.json";
+import Link from "next/link";
 
 const AboutText = () => {
+
     return (
         <>
-            <div className="my-24 px-[1vw] min-w-screen justify-center min-h-screen items-center flex flex-col text-white font-bold font-ChakraPetch">
-                <div className="mx-10 animate-blurShow"><ColourfulBox><p className="leading-relaxed text-center text-4xl sm:text-5xl">I am Ding Han, currently a NUS Computer Science freshman!</p></ColourfulBox></div>
+            <div className="my-24 px-[1vw] min-w-screen justify-center min-h-screen items-center flex flex-col text-white font-light font-ChakraPetch">
+                <div className="mx-10 animate-blurShow"><ColourfulBox><p className="leading-relaxed text-center text-4xl sm:text-5xl font-bold">I'm Ding Han, a Year 2 NUS Computer Science undergraduate!</p></ColourfulBox></div>
                 <div className="mt-8 grid grid-rows-2 grid-flow-col sm:gap-4 gap-2">
                     <div className="animate-blurShowLate"><ColourfulBox>
-                        <p className="leading-relaxed text-center sm:text-2xl text-xl">
-                            Programming Languages:<br/>
-                            - Python<br/>
-                            - JavaScript<br/>
-                            - TypeScript
-                        </p>
+                        <ul className="leading-relaxed text-center sm:text-2xl text-xl">
+                            <li className="font-bold">Programming Languages:</li>
+                            {profileData.profile_details.programming_languages.map((item, index) => {
+                                return <li key={index}>- {item}</li>
+                            })}
+                        </ul>
                     </ColourfulBox></div>
                     <div className="animate-blurShowLate"><ColourfulBox>
-                        <p className="leading-relaxed text-center sm:text-2xl text-xl">
-                            Frameworks / Technologies:<br/>
-                            - React<br/>
-                            - Next.js<br/>
-                            - Tailwind CSS<br/>
-                            - Chakra UI
-                        </p>
+                        <ul className="leading-relaxed text-center sm:text-2xl text-xl">
+                            <li className="font-bold">Frameworks / Technologies:</li>
+                            {profileData.profile_details.frameworks.map((item, index) => {
+                                return <li key={index}>- {item}</li>
+                            })}
+                        </ul>
                     </ColourfulBox></div>
                     <div className="animate-blurShowLate"><ColourfulBox>
-                        <p className="leading-relaxed text-center sm:text-2xl text:xl">
-                            Projects:<br/>
-                            - Grocery Scraper<br/>
-                            - Aim Trainer<br/>
-                            - PaintJS<br/>
-                            - Tower of Hanoi<br/>
-                            - Points Management System <br/>Telegram Bot
-                        </p>
+                        <ul className="leading-relaxed text-center sm:text-2xl text-xl">
+                            <li className="font-bold">Relevant Courses Taken:</li>
+                            {profileData.profile_details.courses.map((item, index) => {
+                                return <li key={index}>- {item}</li>
+                            })}
+                        </ul>
+                    </ColourfulBox></div>
+                    <div className="animate-blurShowLate"><ColourfulBox>
+                        <ul className="leading-relaxed text-center sm:text-2xl text:xl">
+                        <li className="font-bold">Projects:</li>
+                            {profileData.profile_details.projects.map((item, index) => {
+                                return <li key={index}><Link href={item.link}>- {item.name}</Link></li>
+                            })}
+                        </ul>
                     </ColourfulBox></div>
                 </div>
 

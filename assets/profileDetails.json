@@ -1,0 +1,23 @@
+{
+    "profile_details": 
+        {
+            "programming_languages": ["Python", "JavaScript", "TypeScript", "Java"],
+            "frameworks": ["React", "Next.js", "Tailwind CSS", "Git", "Github"],
+            "projects": [
+                {
+                    "name": "Grocery Scraper",
+                    "link": "https://github.com/ldinghan/grocery_scraper"
+                },
+                {
+                    "name": "URL Shortener",
+                    "link": "https://dh-url-shortener.vercel.app"
+                },
+                {
+                    "name": "Points Management System Telegram Bot",
+                    "link": "https://github.com/ldinghan/points-management-system-bot"
+                }
+            ],
+            "courses": ["Programming Methodology", "Discrete Structures", "Data Structures and Algorithms"]
+        }
+    
+}
