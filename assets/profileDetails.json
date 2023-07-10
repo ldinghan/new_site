@@ -2,8 +2,12 @@
     "profile_details": 
         {
             "programming_languages": ["Python", "JavaScript", "TypeScript", "Java"],
-            "frameworks": ["React", "Next.js", "Tailwind CSS", "Git", "Github"],
+            "frameworks": ["React", "Next.js", "Tailwind CSS", "Git", "Github", "Firebase"],
             "projects": [
+                {
+                    "name": "The Social Lounge",
+                    "link": "https://the-social-lounge.vercel.app"
+                },
                 {
                     "name": "Grocery Scraper",
                     "link": "https://github.com/ldinghan/grocery_scraper"
