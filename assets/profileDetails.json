@@ -9,6 +9,11 @@
                     "link": "https://the-social-lounge.vercel.app"
                 },
                 {
+                    "name": "Cookie Clicker Clone",
+                    "link": "https://cookie-clicker-murex.vercel.app"
+                },
+                
+                {
                     "name": "Grocery Scraper",
                     "link": "https://github.com/ldinghan/grocery_scraper"
                 },
@@ -21,7 +26,7 @@
                     "link": "https://github.com/ldinghan/points-management-system-bot"
                 }
             ],
-            "courses": ["Programming Methodology", "Discrete Structures", "Data Structures and Algorithms"]
+            "courses": ["Programming Methodology", "Discrete Structures", "Data Structures and Algorithms", "Computer Architecture", "Software Engineering", "Introduction to Computer Networks"]
         }
     
 }
