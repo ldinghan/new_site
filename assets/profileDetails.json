@@ -26,7 +26,7 @@
                     "link": "https://github.com/ldinghan/points-management-system-bot"
                 }
             ],
-            "courses": ["Programming Methodology", "Discrete Structures", "Data Structures and Algorithms", "Computer Architecture", "Software Engineering", "Introduction to Computer Networks"]
+            "courses": ["Programming Methodology", "Discrete Structures", "Data Structures and Algorithms", "Computer Organisation", "Software Engineering", "Introduction to Computer Networks"]
         }
     
 }
