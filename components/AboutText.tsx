@@ -37,7 +37,7 @@ const AboutText = () => {
                         <ul className="leading-relaxed text-center sm:text-2xl text:xl">
                         <li className="font-bold">Projects:</li>
                             {profileData.profile_details.projects.map((item, index) => {
-                                return <li key={index}><Link href={item.link}>- {item.name}</Link></li>
+                                return <li key={index}><Link href={item.link} rel="noopener noreferrer" target="_blank">- {item.name}</Link></li>
                             })}
                         </ul>
                     </ColourfulBox></div>

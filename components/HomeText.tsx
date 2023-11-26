@@ -10,7 +10,8 @@ const HomeText = () => {
                     <p className='leading-relaxed text-center'>
                         <span className="italic animate-highlightText md:border-b-8 sm:border-b-4 border-b-2 border-transparent">Blockchain</span> enthusiast, <br/> 
                         proponent of <span className="italic animate-highlightText  md:border-b-8 sm:border-b-4 border-b-2 border-transparent">machine learning and AI</span>, <br/> 
-                        does <span className="italic animate-highlightText  md:border-b-8 sm:border-b-4 border-b-2 border-transparent">web development</span> for fun.
+                        does <span className="italic animate-highlightText  md:border-b-8 sm:border-b-4 border-b-2 border-transparent">web development</span> for fun, <br />
+                        maybe interested in <span className="italic animate-highlightText  md:border-b-8 sm:border-b-4 border-b-2 border-transparent">cybersecurity</span>.
                     </p>
                 </ColourfulBox>
                 <ColourfulBox>

@@ -5,25 +5,20 @@
             "frameworks": ["React", "Next.js", "Tailwind CSS", "Git", "Github", "Firebase"],
             "projects": [
                 {
+                    "name": "F.A.K.E.J.A.R.V.I.S. Teaching Assistant Software",
+                    "link": "https://github.com/AY2324S1-CS2103T-T15-1/tp"
+                },
+                {
                     "name": "The Social Lounge",
                     "link": "https://the-social-lounge.vercel.app"
                 },
                 {
-                    "name": "Cookie Clicker Clone",
-                    "link": "https://cookie-clicker-murex.vercel.app"
+                    "name": "Points Management System Telegram Bot",
+                    "link": "https://github.com/ldinghan/points-management-system-bot"
                 },
-                
                 {
                     "name": "Grocery Scraper",
                     "link": "https://github.com/ldinghan/grocery_scraper"
-                },
-                {
-                    "name": "URL Shortener",
-                    "link": "https://dh-url-shortener.vercel.app"
-                },
-                {
-                    "name": "Points Management System Telegram Bot",
-                    "link": "https://github.com/ldinghan/points-management-system-bot"
                 }
             ],
             "courses": ["Programming Methodology", "Discrete Structures", "Data Structures and Algorithms", "Computer Organisation", "Software Engineering", "Introduction to Computer Networks"]
