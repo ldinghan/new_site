@@ -1,12 +1,16 @@
 {
     "profile_details": 
         {
-            "programming_languages": ["Python", "JavaScript", "TypeScript", "Java"],
-            "frameworks": ["React", "Next.js", "Tailwind CSS", "Git", "Github", "Firebase"],
+            "programming_languages": ["Python", "JavaScript", "TypeScript", "Java", "SQL"],
+            "frameworks": ["React", "Next.js", "Tailwind CSS", "Git", "Github", "Firebase", "Radix UI"],
             "projects": [
                 {
                     "name": "F.A.K.E.J.A.R.V.I.S. Teaching Assistant Software",
                     "link": "https://github.com/AY2324S1-CS2103T-T15-1/tp"
+                },
+                {
+                    "name": "Bookager",
+                    "link": "https://bookager.vercel.app"
                 },
                 {
                     "name": "Self-Driving Simulator",
@@ -25,7 +29,14 @@
                     "link": "https://github.com/ldinghan/grocery_scraper"
                 }
             ],
-            "courses": ["Programming Methodology", "Discrete Structures", "Data Structures and Algorithms", "Computer Organisation", "Software Engineering", "Introduction to Computer Networks"]
+            "courses": ["Programming Methodology", 
+                        "Discrete Structures", 
+                        "Data Structures and Algorithms", 
+                        "Computer Organisation", 
+                        "Software Engineering", 
+                        "Computer Networks",
+                        "Operating Systems",
+                        "Information Security"]
         }
     
 }
